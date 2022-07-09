@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Albert Sans';
+}
+body{
+    background-image: url('tela.jpg');
+    background-size: 1600px;
+}
+label img{
+    width: 80px;
+    background: transparent;
+    border-radius: 50px;
+}
+p{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    color: rgb(10, 181, 233);
+    padding: 15px;
+    font-family: 'Oswald';
+}
+p img{
+    width: 40px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+ul{
+    position: absolute;
+    top:0px;
+    width: 100%;
+}
+   
+nav{
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 100px;
+    left: -300px;
+    height: 560px;
+    position:absolute;
+    box-shadow: 0px 9px 10px rgb(10, 125, 233);
+    border-radius: 10px;
+}
+li{
+    border-color: aqua;
+}
+
+p{
+    background-color: rgba(0, 0, 0, 0.692);
+    display: block;
+    padding: 20px 10px;
+    color: rgb(10, 144, 233);
+    box-shadow: 0px 2px 20px rgb(96, 10, 233);
+    border-radius: 5px 30px 5px;
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(300px);
+}
+li:hover,
+H1:hover
+button:hover
+.p >img:hover{
+    cursor: pointer;
+    
+}
+p{
+    transition: transform .9s ;
+}
+p:hover{
+    transform: scale(1.1);
+    background: rgb(0, 0, 0);
+}
+label>img{
+    transition: transform .9s ;
+    box-shadow: 0px 2px 20px rgb(96, 10, 233);
+}
+label>img:hover{
+    transform: scale(1.3);
+}
+.main{
+    background: rgba(96, 10, 233, 0.562);
+    width: 150px;
+    padding: 200px 560px;
+    margin: 20px;
+    position: block;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px ;
+}
+.babi{
+    margin: 0 ;
+    width: 60px;
+    height: 10vh;
+   
+}
+a{
+    position: relative;
+    left: -200px;
+    top:-160px;
+    padding: 8px 10px;
+    display: flex;
+}
+.cav{position: absolute;
+    
+}
+.tempo{
+    position: relative;
+    top: -150px;
+    
+    right: 90px;
+    height: 100px;
+    width: 9px;
+    background: rgb(0, 0, 0);
+}
+iframe{
+    box-shadow: 0px 0px 50px rgb(81, 0, 128);
+}
+a>img{
+    width: 70px;
+    border-radius: 30px;
+    background: rgba(48, 45, 45, 0.61);
+    transition: transform .9s ;
+    box-shadow: 0px 0px 15px black;
+}
+
+a>img:hover{
+    transform: scale(1.3);
+    background:  rgba(36, 34, 34, 0.74);
+}
